@@ -2,9 +2,7 @@
 
 
 
-/**
- * add event listener on multiple elements
- */
+
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -14,11 +12,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 
-/**
- * PRELOADER
- * 
- * preloader will be visible until document load
- */
 
 const preloader = document.querySelector("[data-preloader]");
 
