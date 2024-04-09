@@ -55,11 +55,6 @@ const activeElementOnScroll = function () {
 window.addEventListener("scroll", activeElementOnScroll);
 
 
-
-/**
- * SCROLL REVEAL
- */
-
 const revealElements = document.querySelectorAll("[data-reveal]");
 
 const revealElementOnScroll = function () {
