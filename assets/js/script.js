@@ -29,12 +29,7 @@ window.addEventListener("load", function () {
 
 
 
-/**
- * MOBILE NAVBAR
- * 
- * show the mobile navbar when click menu button
- * and hidden after click menu close button or overlay
- */
+
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
