@@ -38,11 +38,6 @@ addEventOnElements(navTogglers, "click", toggleNav);
 
 
 
-/**
- * HEADER & BACK TOP BTN
- * 
- * active header & back top btn when window scroll down to 100px
- */
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
