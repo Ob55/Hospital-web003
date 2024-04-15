@@ -103,6 +103,10 @@ body {
   color: var(--independece);
   line-height: 1.8;
   overflow: hidden;
+  background-image: url('../../assets/TOWER-BLOCK-ARIEL-VIEW-2-scaled.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body.loaded { overflow-y: visible; }
@@ -351,24 +355,25 @@ body.nav-active { overflow: hidden; }
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
-  animation: changeBackground 10s infinite alternate; /
+  animation: changeBackground 10s infinite alternate; 
 }
 
 @keyframes changeBackground {
   15% {
-    background-image: url('/assets/TOWER-BLOCK-ARIEL-VIEW-2-scaled.jpg');
+    background-image: url('../../assets/TOWER-BLOCK-ARIEL-VIEW-2-scaled.jpg');
+    /* background-image: url('/assets/TOWER-BLOCK-ARIEL-VIEW-2-scaled.jpg'); */
   }
   25% {
-    background-image: url('/assets/home3-scaled.jpg'); /
+    background-image: url('../../assets/home3-scaled.jpg'); 
   }
   50% {
-    background-image: url('/assets/backgroung3.jpg'); 
+    background-image: url('../../assets/backgroung3.jpg'); 
   }
   75% {
-    background-image: url('/assets/home2-1-scaled.jpg'); 
+    background-image: url('../../assets/home2-1-scaled.jpg'); 
   }
   100% {
-    background-image: url('/assets/backgroung4.jpg'); 
+    background-image: url('../../assets/backgroung4.jpg'); 
   }
 }
 
