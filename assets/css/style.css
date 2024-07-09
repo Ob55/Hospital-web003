@@ -96,18 +96,18 @@ html {
   font-family: var(--ff-rubik);
   scroll-behavior: smooth;
 }
-
+.title-md
 body {
   background-color: var(--white);
   font-size: 1.6rem;
   color: var(--independece);
   line-height: 1.8;
   overflow: hidden;
-  background-image: url('../../assets/TOWER-BLOCK-ARIEL-VIEW-2-scaled.jpg');
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+ 
 }
+
+
 
 body.loaded { overflow-y: visible; }
 
@@ -140,7 +140,7 @@ body.nav-active { overflow: hidden; }
 
 .title-lg { font-size: var(--title-lg); }
 
-.title-md { font-size: var(--title-md); }
+.title-md { font-size: var(--title-md);}
 
 .title-sm { font-size: var(--title-sm); }
 
@@ -161,7 +161,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .btn {
-  background-color: var(--verdigris);
+  background-color: var(--verdigris);;
   color: var(--white);
   font-weight: var(--fw-700);
   padding: 12px 36px;
